@@ -19,11 +19,11 @@ Note: Please do not OSINT someone, he is not related to the challenge, just a tr
 
 ## Solution
 
-Truy cập vào trang của [ScriptSorcerers](https://scriptsorcerers.xyz/), tại đây, vào tab `Members` và bạn sẽ thấy có 4 tài khoản sau:
+I visited the [ScriptSorcerers](https://scriptsorcerers.xyz/) website. There, I went to the `Members` tab and found the following 4 accounts:
 
 ![alt text](Images/image-16.png)
 
-Flag nằm trong trang của user [john.hacker.doe1337](https://scriptsorcerers.xyz/members/john.hacker.doe1337)
+The flag is on the page of user [john.hacker.doe1337](https://scriptsorcerers.xyz/members/john.hacker.doe1337)
 
 ![alt text](Images/image-15.png)
 
