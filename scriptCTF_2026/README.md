@@ -2,7 +2,10 @@
 
 ### scriptCTF-2026
 
-![alt text](Images/scriptCTF.png)
+<p align="center">
+  <img src="Images/scriptCTF.png" width="75%">
+</p>
+
 ScriptCTF is a beginner-friendly CTF competition presented by ScriptSorcerers.
 
 Duration: Sat, 16 Aug. 2025, 00:00 UTC — Mon, 18 Aug. 2025, 00:00 UTC 
@@ -21,7 +24,8 @@ Discord: https://discord.gg/c9xaJFW449
 | Web        | [404 Found](./404-Found.md)                    |
 | Web        | [wpm-game](./wpm-game.md)                      |
 | Forensics  | [Bruteforced](./Bruteforced.md)                | 
-| Crypto     | [Misdirection](./Misdirection.md)              | 
+| Crypto     | [Misdirection](./Misdirection.md)              |
+| OSINT      | [The-New-One-1](./The-New-One-1.md)            | 
 | Geo-OSINT  | [Midnight Snack](./Midnight-Snack.md)          | 
 | Geo-OSINT  | [Titan](./Titan.md)                            | 
 
