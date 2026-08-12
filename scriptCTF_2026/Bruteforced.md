@@ -1,8 +1,10 @@
 # Bruteforced
 
-## Information
+**Author**: carax49<br>
+**Date**: 2026-08-10
 
-- Challenge: [Bruteforced](https://play.scriptsorcerers.xyz/challenges#Bruteforced-26)
+## Overview
+
 - Category: Forensics
 - Description:
 
@@ -10,9 +12,9 @@
 Help! Our website got bruteforced. Hopefully the attacker did not leak anything.
 ```
 
-## Solution
+## Analysis
 
-The challenge gives me a file called `log.pcap`. I opened it with Wireshark.
+The challenge provides a file called `log.pcap`. I opened it with Wireshark and focused on HTTP traffic.
 
 The HTTP packets caught my attention, so I used a filter to pull them out.
 
@@ -31,11 +33,11 @@ GET /flag_2 HTTP/1.1
 
 But all of them got a `404` status code back.
 
-I wanted to filter for any response with a `200` status code.
+I then filtered for a response with a `200` status code.
 
 ![alt text](Images/image-4.png)
 
-And there was only one result. I followed the HTTP Stream to look closer.
+There was only one result. I followed its HTTP stream to inspect it.
 
 ![alt text](Images/image-5.png)
 
@@ -44,9 +46,11 @@ GET /flag_4919 HTTP/1.1
 Host: ctf.scriptsorcerers.xyz
 ```
 
-As you can see, when the attacker sent the request `GET /flag_4919` to the host `ctf.scriptsorcerers.xyz`, the server returned `200 OK` instead of `404 NOT FOUND`.
+The request `GET /flag_4919` to `ctf.scriptsorcerers.xyz` returned `200 OK` instead of `404 NOT FOUND`.
 
-I tried visiting
+## Solution
+
+I visited:
 
 ```url
 https://ctf.scriptsorcerers.xyz/flag_4919

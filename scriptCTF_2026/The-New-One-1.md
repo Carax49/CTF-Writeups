@@ -1,8 +1,10 @@
 # The New One 1
 
-## Information
+**Author**: carax49<br>
+**Date**: 2026-08-10
 
-- Challenge: [The New One 1](https://play.scriptsorcerers.xyz/challenges#The%20New%20One%201-28)
+## Overview
+
 - Category: OSINT
 - Description:
 
@@ -17,13 +19,17 @@ Note: Please do not OSINT someone, he is not related to the challenge, just a tr
 
 ```
 
-## Solution
+## Analysis
 
-I visited the [ScriptSorcerers](https://scriptsorcerers.xyz/) website. There, I went to the `Members` tab and found the following 4 accounts:
+I visited the [ScriptSorcerers](https://scriptsorcerers.xyz/) website and opened its `Members` tab. There were four accounts to inspect:
 
 ![alt text](Images/image-16.png)
 
-The flag is on the page of user [john.hacker.doe1337](https://scriptsorcerers.xyz/members/john.hacker.doe1337)
+The page for user [john.hacker.doe1337](https://scriptsorcerers.xyz/members/john.hacker.doe1337) contains the flag.
+
+## Solution
+
+Open that member profile to recover the flag:
 
 ![alt text](Images/image-15.png)
 

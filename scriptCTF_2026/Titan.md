@@ -1,8 +1,10 @@
 # Titan
 
-## Information
+**Author**: carax49<br>
+**Date**: 2026-08-10
 
-- Challenge: [Titan](https://play.scriptsorcerers.xyz/challenges#Titan-98)
+## Overview
+
 - Category: Geo-OSINT
 - Description:
 
@@ -10,19 +12,23 @@
 Just because it's pertaining to latitude and longitude, it's GEO-OSINT right? Flag is the the latitude and longitude upto 6 decimal places of the location where the deepest underwater product photoshoot happened. Flag format: scriptCTF{13.373737_-13.373737}
 ```
 
-## Solution
+## Analysis
 
-I went to Google and searched for
+I searched the web for:
 
 ```text
 the deepest underwater product photoshoot
 ```
 
-I found a photo posted on this Instagram page: [Link](https://www.instagram.com/p/DZNkS9umX26/?img_index=3)
+This led to a photo on [Instagram](https://www.instagram.com/p/DZNkS9umX26/?img_index=3).
 
 ![alt text](Images/image-7.png)
 
-And the coordinates were written right there in the photo!
+The image displays the coordinates directly.
+
+## Solution
+
+Format the displayed latitude and longitude to six decimal places:
 
 ## Flag
 

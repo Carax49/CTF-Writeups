@@ -1,8 +1,10 @@
 # wpm-game
 
-## Information
+**Author**: carax49<br>
+**Date**: 2026-08-10
 
-- Challenge: [wpm-game](https://play.scriptsorcerers.xyz/challenges#wpm-game-66)
+## Overview
+
 - Category: Web
 - Description:
 
@@ -10,7 +12,9 @@
 Let's test out your words per minute! The website is under development though, might not be fully secure.... Flag is in flag.txt.
 ```
 
-## Solution
+The goal is to exploit the application and read the `flag.txt` file.
+
+## Analysis
 
 The challenge gives me the application's source code.
 
@@ -123,7 +127,7 @@ On top of that, the input can only use at most 18 distinct characters:
 len(set(string)) > 18
 ```
 
-## Exploitation
+## Solution
 
 First, I visited `/rate` without passing the `wpm` parameter. In that case `wpm` becomes an empty string, which causes `eval("")` to throw an exception. Since the app is running with `debug=True`, the server returns the Werkzeug Debugger, which let me gather more information about the environment.
 

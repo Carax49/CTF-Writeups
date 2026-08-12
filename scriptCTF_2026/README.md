@@ -8,7 +8,7 @@
 
 ScriptCTF is a beginner-friendly CTF competition presented by ScriptSorcerers.
 
-Duration: Sat, 16 Aug. 2025, 00:00 UTC — Mon, 18 Aug. 2025, 00:00 UTC 
+Duration: Sat, 08 Aug. 2026, 00:00 UTC — Mon, 10 Aug. 2026, 00:00 UTC 
 
 Team Limit: 4 members
 
@@ -30,3 +30,5 @@ Discord: https://discord.gg/c9xaJFW449
 | Geo-OSINT  | [Titan](./Titan.md)                            | 
 
 ---
+
+Writeups in this repository were written by [Carax49](https://github.com/Carax49).

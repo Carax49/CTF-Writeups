@@ -1,15 +1,17 @@
 # 404 Found
 
-## Information
+**Author**: carax49<br>
+**Date**: 2026-08-10
 
-- Challenge: [404 Found](https://play.scriptsorcerers.xyz/challenges#404%20Found-65)
+## Overview
+
 - Category: Web
 - Description:
 ```text
 Please don't hack my shopping cart!
 ```
 
-## Solution
+## Analysis
 
 ![alt text](Images/image.png)
 
@@ -23,7 +25,9 @@ This is probably a hint pointing to the `/robots.txt` endpoint.
 robots.txt is a file placed in the root folder of a website. It tells web crawlers/search engines which paths they should or should not crawl.
 ```
 
-I tried visiting the `/robots.txt` endpoint and got:
+## Solution
+
+I visited the `/robots.txt` endpoint and got:
 
 ```text
 User-agent: *
