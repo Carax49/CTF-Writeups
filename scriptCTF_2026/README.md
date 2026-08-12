@@ -3,7 +3,7 @@
 ### scriptCTF-2026
 
 <p align="center">
-  <img src="Images/scriptCTF.png" width="75%">
+  <img src="Images/scriptCTF.png" width="60%">
 </p>
 
 ScriptCTF is a beginner-friendly CTF competition presented by ScriptSorcerers.
