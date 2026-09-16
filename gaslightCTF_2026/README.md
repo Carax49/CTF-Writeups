@@ -1,6 +1,6 @@
 ## Writeups for some challenges of gaslightCTF-2026
 
-### scriptCTF-2026
+### gaslightCTF-2026
 
 <p align="center">
   <img src="images/gaslightCTFlogo.gif" width="60%">
